@@ -3,7 +3,7 @@ from tkinter import messagebox
 from random import randint,choice,shuffle
 import pyperclip
 import json
-window=Tk()
+# window=Tk()
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 #Password Generator Project
 def password_generater():
@@ -102,4 +102,4 @@ genrate_button.grid(row=3,column=2)
 add_button=Button(text="ADD PASSWORD",width=36,command=save_file)
 add_button.grid(row=4,column=1,columnspan=2)
 
-window.mainloop(
+window.mainloop()
